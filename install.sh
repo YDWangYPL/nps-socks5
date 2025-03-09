@@ -147,9 +147,9 @@ function install_server() {
    if pgrep -f "nps service" >/dev/null; then
        echo "==服务端服务器启动成功=="
        echo "默认穿透端口：8024"
-       echo "默认web端口：18080"
+       echo "默认web端口：30808"
        echo "默认web登录账号：admin"
-       echo "默认web登录密码：admin"
+       echo "默认web登录密码：Song8641@#%"
        echo "服务端配置文件路径：/etc/nps/conf"
        exception_log "如有防火墙，请放行8024、18080端口"
    else
